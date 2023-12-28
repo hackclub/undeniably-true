@@ -1,0 +1,19 @@
+display_information:
+  name: Undeniably True
+  description: Be undeniably true!
+  background_color: "#398049"
+features:
+  bot_user:
+    display_name: Undeniably True
+    always_online: false
+oauth_config:
+  scopes:
+    bot:
+      - chat:write
+      - usergroups:read
+settings:
+  interactivity:
+    is_enabled: true
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false
